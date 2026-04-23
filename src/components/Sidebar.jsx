@@ -60,7 +60,7 @@ export default function Sidebar({ setPage, setIsLogin }) {
             className="flex items-center gap-3 p-3 rounded-xl hover:bg-white/10 font-medium active:scale-95 transition-all text-blue-100 hover:text-white"
           >
             <HomeIcon className="w-5 flex-shrink-0" /> 
-            <span className="truncate">Dashboard</span>
+            <span className="font-semibold truncate">Dashboard</span>
           </button>
 
           <div className="my-3 border-t border-white/20"></div>
@@ -72,7 +72,7 @@ export default function Sidebar({ setPage, setIsLogin }) {
             className="flex items-center gap-3 p-3 rounded-xl hover:bg-white/10 font-medium active:scale-95 transition-all text-blue-100 hover:text-white"
           >
             <PlusIcon className="w-5 flex-shrink-0" /> 
-            <span className="truncate">Tambah & Edit</span>
+            <span className="font-semibold truncate">Tambah & Edit</span>
           </button>
         </div>
 
@@ -84,7 +84,7 @@ export default function Sidebar({ setPage, setIsLogin }) {
             className="flex items-center gap-3 p-3 rounded-xl hover:bg-red-500/25 active:scale-95 transition-all text-blue-100 hover:text-red-500 font-medium"
           >
             <ArrowLeftOnRectangleIcon className="w-5 flex-shrink-0" /> 
-            <span className="truncate">Logout</span>
+            <span className="font-semibold truncate">Logout</span>
           </button>
         </div>
       </div>
