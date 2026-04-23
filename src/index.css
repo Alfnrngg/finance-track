@@ -5,13 +5,12 @@ body {
   background: #eef3ff;
 }
 
-/* Tambahkan animasi melayang yang kita buat tadi di sini juga */
 @keyframes float {
-  0% { transform: translateY(0px) rotate(1deg); }
-  110% { transform: translateY(0px) rotate(7deg); }
-  100% { transform: translateY(0px) rotate(1deg); }
+  0% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-0px) rotate(0deg); } /* sudah diturunin biar gak ketinggian */
+  100% { transform: translateY(0px) rotate(0deg); }
 }
 
 .animate-float {
-  animation: float 6s ease-in-out infinite;
+  animation: float 5s ease-in-out infinite;
 }
