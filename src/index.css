@@ -1,8 +1,17 @@
 @import "tailwindcss";
 
 body {
-  font-family: 'Inter', sans-serif Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Inter', sans-serif;
   background: #eef3ff;
-  
-  
+}
+
+/* Tambahkan animasi melayang yang kita buat tadi di sini juga */
+@keyframes float {
+  0% { transform: translateY(0px) rotate(1deg); }
+  110% { transform: translateY(0px) rotate(7deg); }
+  100% { transform: translateY(0px) rotate(1deg); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
 }
